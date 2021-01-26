@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    background: url("assets/matches.png") no-repeat;
+    background-size: cover;
+    height: 811px;
+}
+
+#mainContent{
+    padding: 300px;
+    text-align: center;
+    color: white;
+}
+
+#mainBtn{
+    background-color: #000000;
+    border: 0;
+    padding: 20px;
+    color: white;
+}
+
+#down{
+    margin: auto;
+    margin-top: 200px;
+}
+
+#bodyContainer{
+    border: 3px solid red;
+    height: 500px;
+}
+
+#navHeader{
+    border: 3px solid green;
+    background: url("assets/global/nautilus-logo-sprite@2x.png") no-repeat;
+    background-size: 45%;
+    height: 110px;
+    width: 100%;
+    position: fixed;
+}
+
+#nav{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
