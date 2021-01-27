@@ -3,46 +3,70 @@
     padding: 0;
 }
 
-#main{
-    background: url("assets/matches.png") no-repeat;
-    background-size: cover;
-    height: 811px;
+#entire{
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
 }
 
-#mainContent{
+#curtain{
+    background: url("assets/matches.png") no-repeat;
+    background-size: cover;
+}
+
+#curtainContent{
     padding: 300px;
+    padding-bottom: 50px;
     text-align: center;
     color: white;
 }
 
-#mainBtn{
+#blackBtn{
     background-color: #000000;
     border: 0;
-    padding: 20px;
+    padding: 12px;
     color: white;
+    font-weight: bold;
 }
 
 #down{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 580px;
 }
 
-#bodyContainer{
+#container{
     border: 3px solid red;
-    height: 500px;
+    width: 100%;
+    background-color: #EDEDED;
+}
+
+#logo{
+    padding: 10px;
+    width: 200px;
 }
 
 #navHeader{
-    border: 3px solid green;
-    background: url("assets/global/nautilus-logo-sprite@2x.png") no-repeat;
-    background-size: 45%;
-    height: 110px;
-    width: 100%;
-    position: fixed;
+    box-shadow: rgb(174, 179, 184) 0px 20px 30px -10px;
+    display: flex;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-left: 175px;
+    padding-right: 115px;
 }
 
 #nav{
     margin: auto;
     text-align: center;
     justify-content: center;
+}
+
+#bodyContent{
+    margin-top: 50px;
+    border: 3px solid red;
+}
+#header{
+    margin-top: 50px;
+    height: 100px;
 }
